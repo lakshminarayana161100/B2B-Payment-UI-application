@@ -1,0 +1,204 @@
+
+.header {
+    overflow: hidden;
+    background-color: #3f9ce2;
+    width: 100%;
+    height: 60px;
+    padding-top: 13px;
+  
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #3f9ce2;
+  }
+  a:active {
+    color: red;
+  }
+  
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 20px 70px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 10px;
+    border-radius: 4px;
+  }
+  
+  .header a.logo {
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  
+  .header a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  .header-right {
+    float: right;
+    margin-right: 40px;
+  }
+  .dropdown {
+    margin-top: 12px;
+  }
+  .dropdown {
+    border: none;
+    outline: none;
+    background-color:inherit;
+    
+    font-size: 18px;
+  }
+  
+  option { 
+    /* Whatever color  you want */
+    background-color: white;
+    color: black;
+  }
+   .bg{
+    width: 100%;
+    height: 688px;
+    background-color: skyblue;
+
+  }
+  .whitebox{
+    width: 52%;
+    height: 644px;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    overflow-y: scroll;
+  }
+  .data{
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+   .arrow{
+    margin-top: 30px;
+    margin-left: 25px;
+  } 
+  .account{
+    border: 1px solid gainsboro;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 117px;
+    background-color: gainsboro;
+    margin-top: -35px;
+    margin-left: 600px;
+  }
+  .cod{
+    margin-left: 30px;
+    margin-top: -4pxpx;
+  }
+  #select{
+    float: right;
+    margin-right: 100px;
+    margin-top: -28px;
+  } 
+   .data2{
+    margin-top: -600px;
+    margin-left: 859px;
+  } 
+   .shop{
+    margin-top: 24px;
+  }
+    .step{
+    margin-top: -43px;
+    margin-left: 64px;
+    color: gainsboro;
+  }
+   .ship{
+    margin-top: -25px;
+    margin-left: 64px;
+    color: gainsboro;
+  }   
+  .pay{
+    margin-top: -62px;
+    margin-left: 164px;
+  }
+ #fara{
+    background-color: rgb(230, 169, 109);
+    border-radius: 60%;
+    border: 10px solid rgb(240, 175, 109);
+ }
+ #fara1{
+    background-color: #3f9ce2;
+    border-radius: 60%;
+    border: 10px solid #3f9ce2;
+ }
+ .st2{
+    margin-top:-43px;
+    margin-left: 230px;
+    color: gainsboro;
+ }
+ .review{
+    margin-top: -58px;
+    margin-left: 330px;
+ }
+ #fara2{
+    background-color: rgb(240, 252, 152);
+    border-radius: 60%;
+    border: 10px solid rgb(240, 252, 151) ;
+ }
+ .st3{
+    margin-top:-43px;
+    margin-left: 395px;
+    color: gainsboro;
+ }
+ .reviews{
+    margin-top: -25px;
+    margin-left: 395px;
+    color: gainsboro;
+ } 
+
+ .box{
+    width: 455px;
+    height: 75px;
+    background-color: white;
+    margin-top: 60px;
+    border-radius: 3px;
+ }
+  h5{
+    margin-top: -56px;
+    margin-left: 70px;
+    color: rgba(22, 17, 17, 0.862);
+  }
+  .heading{
+    margin-top: 20px;
+  }
+  span{
+    margin-left: 220px;
+    font-weight: bold;
+  }
+  #address{
+    margin-top: 20px;
+    margin-left: 420px;
+  }
+  .total{
+    margin-left: 180px;
+  }
+  .primary {
+    color: white;
+    background-color: #3f9ce2;
+    border: 2px solid #3f9ce2;
+    border-radius: 5px;
+    width: 150px;
+    height: 45px;
+    margin-left: 200px;
+}
+.form-select{
+  width: 68%;
+  margin-top: 25px;
+}
+.card{
+  margin-left: 20px;
+  border: none;
+}

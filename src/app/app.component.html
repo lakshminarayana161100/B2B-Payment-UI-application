@@ -1,0 +1,243 @@
+<div class="header">
+  <a class="logo" style="color:white ;">B2B</a>
+
+  <div class="header-right">
+    <a href="#home" style="color:white ; font-weight:500">Home</a>
+    <a href="#" style="color:white ; font-weight:500">Products</a>
+    <a href="#" style="color:white ; font-weight:500"> Wishlist</a>
+    <a href="#" style="color:white ; font-weight:500">About Us</a>
+    <a href="#" style="color:white ; font-weight:500"> Contact Us</a>
+    <i class="fa fa-user fa-1x" aria-hidden="true" style="color: white ;"></i>
+    <select class="dropdown" style="background-color: #3f9ce2; color: white;">
+      <option value="one"><a href="#" style=" font-weight:500">Account</a></option>
+      <option value="abcd"><a href="#" style=" font-weight:500">Dashboard</a></option>
+      <option value="efgh"><a href="#" style=" font-weight:500">Profile</a></option>
+    </select>
+  </div>
+</div>
+<div class="bg">
+  <div class="data">
+    <div class="whitebox">
+      <div class="arrow"> <i class='fas fa-arrow-left fa-2x'></i></div>
+      <h4 style="margin-top: -33px; margin-left: 73px;">Payment Details</h4>
+      <div class="account"><i style='font-size:24px' class='far'>Narayana&#xf2bd;</i></div>
+      <br><br>
+      <!-- <div class="cod"><img src="assets/cod.png" width="40px" height="40px">
+        <h6 style="margin-left:56px; margin-top:-32px">Cash on Delivery</h6>
+      </div>
+      <select style="border:none; outline:none;" id="select">
+      </select> -->
+      <mat-accordion>
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              <img src="assets/cod.png" width="40px" height="40px"><span class="card">Cash on Delivery</span>
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+        </mat-expansion-panel>
+      </mat-accordion>
+      
+      <br>
+      <!-- <div class="cod"><i style="font-size:30px" class="fa">&#xf09d;</i>
+        <h6 style="margin-left:56px; margin-top:-21px">Credit/Debit Card</h6>
+      </div>
+      <select style="border:none; outline:none;" id="select">
+      </select> -->
+      <mat-accordion>
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              <i style="font-size:30px" class="fa">&#xf09d;</i><span class="card">Credit/debit</span>
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <div class="box1">
+            <div class="container">
+              <div class="mb-3 mt-3">
+                <label for="text" class="form-label" style="font-weight:bold ;">Credit/Debit card</label>
+                <input type="text" class="form-control" id="text" placeholder="Enter card number">
+              </div>
+              <div class="mb-3">
+                <label for="name" class="form-label" style="font-weight:bold ;">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter Your Name">
+              </div>
+              <div class="row">
+                <div class="col">
+                  <label for="name" class="form-label" style="font-weight:bold ;">Expiration Date</label>
+                  <input type="text" class="form-control" placeholder="00/00">
+                </div>
+                <div class="col">
+                  <label for="name" class="form-label" style="font-weight:bold ;">CVV</label>
+                  <input type="text" class="form-control" placeholder="000" name="pswd">
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary" style="margin-left:298px; margin-top: 7px;">PAY</button>
+            </div>
+          </div>
+        </mat-expansion-panel>
+      </mat-accordion>
+      <br>
+      <!--<div class="cod"><img src="assets/upi.png" width="60px" height="20px">
+        <h6 style="margin-left:60px; margin-top:-21px">Phonepe/ Googlepay/ BHIM UPI</h6>
+      </div>
+      <select style="border:none; outline:none;" id="select">
+      </select>-->
+      <mat-accordion>
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              <img src="assets/upi.png" width="60px" height="20px"><span class="card" style="margin-left:-3px ;">Phonepe/ Googlepay/ BHIM UPI</span>
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              <span style="margin-left: -3px; margin-top: 10px;"><img src="assets/phonepe.png" width="50px" height="40px" style="border-radius:50%; margin-top: -5px;">PhonePe</span>
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              <span style="margin-left: -3px; margin-top: 10px;"><img src="assets/gpay.png" width="40px" height="40px" style="border-radius:50% ; margin-left: 5px;">Google pay</span>
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              <span style="margin-left: -3px; margin-top: 10px;"><img src="assets/paytm.png" width="40px" height="40px" style="border-radius:50%; margin-left: 5px;">Paytm</span>
+            </label>
+          </div>
+        <button type="submit" class="btn btn-primary" style="margin-left:298px; margin-top: 7px;">PAY</button>
+        </mat-expansion-panel>
+      </mat-accordion>
+      <br>
+     <!-- <div class="cod"><i style="font-size:30px" class="fa">&#xf1f4;</i>
+        <h6 style="margin-left:54px; margin-top:-21px">Paytm/Wallets</h6>
+      </div>
+      <select style="border:none; outline:none;" id="select">
+      </select> -->
+      <mat-accordion>
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              <i style="font-size:30px" class="fa">&#xf1f4;</i><span class="card">Paytm/Wallets</span>
+            </mat-panel-title>
+            </mat-expansion-panel-header>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                <span style="margin-left: -3px; margin-top: 10px;"><img src="assets/airtel.png" width="50px" height="40px" style="border-radius:50%; margin-top: -5px;">Airtel Pay</span>
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+              <label class="form-check-label" for="flexRadioDefault2">
+                <span style="margin-left: -3px; margin-top: 10px;"><img src="assets/apay.png" width="40px" height="40px" style="border-radius:50% ; margin-left: 5px;">Amazon pay</span>
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+              <label class="form-check-label" for="flexRadioDefault2">
+                <span style="margin-left: -3px; margin-top: 10px;"><img src="assets/mobik.png" width="60px" height="40px" style="border-radius:50%; margin-left: 5px;">Mobikwik|ZIP(Pay Later)</span>
+              </label>
+            </div>
+          <button type="submit" class="btn btn-primary" style="margin-left:298px; margin-top: 7px;">PAY</button>
+        </mat-expansion-panel>
+      </mat-accordion>
+      <br>
+     <!-- <div class="cod"><i class="fa fa-university fa-2x" aria-hidden="true"></i>
+        <h6 style="margin-left:54px; margin-top:-21px">Net Banking</h6>
+      </div>
+      <select style="border:none; outline:none;" id="select">
+      </select> -->
+      <mat-accordion>
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              <i class="fa fa-university fa-2x" aria-hidden="true"></i><span class="card">Net Banking</span>
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <h6>Popular Banks</h6>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              <span style="margin-left: -3px; margin-top: 10px;"><img src="assets/hdcf.png" width="50px" height="40px" style="border-radius:50%; margin-top: -5px;">HDFC Bank</span>
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              <span style="margin-left: -3px; margin-top: 10px;"><img src="assets/icici.png" width="40px" height="40px" style="border-radius:50% ; margin-left: 5px;">ICICI Bank</span>
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              <span style="margin-left: -3px; margin-top: 10px;"><img src="assets/axis.png" width="60px" height="40px" style="border-radius:50%; margin-left: 5px;">Axis Bank</span>
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              <span style="margin-left: -3px; margin-top: 10px;"><img src="assets/sbi.png" width="60px" height="40px" style="border-radius:50%; margin-left: 1px;">State Bank of India</span>
+            </label>
+          </div>
+        <button type="submit" class="btn btn-primary" style="margin-left:298px; margin-top: 7px;">PAY</button>
+        </mat-expansion-panel>
+      </mat-accordion>
+      <br>
+     <!-- <div class="cod"><i style="font-size:30px" class="fa">&#xf1f1;</i>
+        <h6 style="margin-left:54px; margin-top:-21px">Master Card</h6>
+      </div>
+      <select style="border:none; outline:none;" id="select">
+      </select> -->
+      <hr>
+    </div>
+  </div>
+  <div class="data2">
+    <h3>Order Summary</h3>
+    <div class="shop">
+      <i class="fa fa-truck fa-2x" aria-hidden="true" id="fara1"></i>
+    </div>
+    <div class="step">
+      <p>step1</p>
+    </div>
+    <div class="ship">
+      <p>Shipping</p>
+    </div>
+    <div class="pay">
+      <i style='font-size:30px' class='far' id="fara">&#xf09d;</i>
+    </div>
+    <div>
+      <p class="st2">step2</p>
+      <h6 style="font-weight:500 ; margin-left: 230px; margin-top: -20px;">Payment</h6>
+    </div>
+    <div class="review">
+      <i class="fa fa-star fa-2x" aria-hidden="true" id="fara2"></i>
+    </div>
+    <div>
+      <p class="st3">step3</p>
+      <p class="reviews">Reviews</p>
+    </div>
+    <div class="box">
+      <img src="assets/granite1.png" width="50px" height="50px" style="margin-top: -17px; margin-left:10px;">
+      <h5>Brown raw silk Granite</h5>
+    </div>
+    <div class="heading">
+      <h6>Brown raw silk Granite<span>$110.00</span></h6>
+      <h6>Estimated Shipping<span style="margin-left:242px ;">$50.00</span></h6>
+      <h6>Discount<span style="margin-left:318px ;">$0.00</span></h6>
+      <h6>Total<span style="margin-left: 348px ;">$110.00</span></h6>
+    </div>
+    <div class="col">
+      <select class="form-select" aria-label="Default select example">
+        <option selected>Address</option>
+        <option value="1">konijedu village,tanguturu mandal,prakasam dt,pincode-523272</option>
+      </select>
+      <div>
+        <h3 style="margin-top:20px ;">Total Ammount:<span style="font-weight:bold;" class="total">$200.00</span></h3>
+      </div>
+      <button type="submit" class="primary">Pay Now</button>
+    </div>
+
+  </div>
+</div>
